@@ -1,0 +1,1 @@
+docker run -it --rm --gpus all -v $(pwd):/external pmorris2012/butterflow -s a=0,b=end,spd=0.125 /external/video.mp4 -o /external/out.mp4
